@@ -1,10 +1,10 @@
-package dev.xndr.personapi;
+package dev.xndr.peopleapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PersonapiApplicationTests {
+class PeopleapiApplicationTests {
 
 	@Test
 	void contextLoads() {
