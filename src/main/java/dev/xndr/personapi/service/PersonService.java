@@ -1,4 +1,4 @@
-package dev.xndr.peopleapi.service;
+package dev.xndr.personapi.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -9,12 +9,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import dev.xndr.peopleapi.dto.request.PersonDTO;
-import dev.xndr.peopleapi.dto.response.MessageResponseDTO;
-import dev.xndr.peopleapi.entity.Person;
-import dev.xndr.peopleapi.exception.PersonNotFoundException;
-import dev.xndr.peopleapi.mapper.PersonMapper;
-import dev.xndr.peopleapi.repository.PersonRepository;
+import dev.xndr.personapi.dto.request.PersonDTO;
+import dev.xndr.personapi.dto.response.MessageResponseDTO;
+import dev.xndr.personapi.entity.Person;
+import dev.xndr.personapi.exception.PersonNotFoundException;
+import dev.xndr.personapi.mapper.PersonMapper;
+import dev.xndr.personapi.repository.PersonRepository;
 import lombok.AllArgsConstructor;
 
 @Service

@@ -1,4 +1,4 @@
-package dev.xndr.peopleapi.entity;
+package dev.xndr.personapi.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,7 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import dev.xndr.peopleapi.enums.PhoneType;
+import dev.xndr.personapi.enums.PhoneType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

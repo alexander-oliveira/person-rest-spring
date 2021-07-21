@@ -1,4 +1,4 @@
-package dev.xndr.peopleapi.enums;
+package dev.xndr.personapi.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

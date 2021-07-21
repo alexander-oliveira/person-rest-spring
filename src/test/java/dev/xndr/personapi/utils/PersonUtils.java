@@ -1,10 +1,10 @@
-package dev.xndr.peopleapi.utils;
+package dev.xndr.personapi.utils;
 
 import java.time.LocalDate;
 import java.util.Collections;
 
-import dev.xndr.peopleapi.dto.request.PersonDTO;
-import dev.xndr.peopleapi.entity.Person;
+import dev.xndr.personapi.dto.request.PersonDTO;
+import dev.xndr.personapi.entity.Person;
 
 public class PersonUtils {
     private static final String FIRST_NAME = "Full";

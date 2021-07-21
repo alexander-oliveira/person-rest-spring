@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.xndr</groupId>
-	<artifactId>peopleapi</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>peopleapi</name>
+	<artifactId>person-rest-api</artifactId>
+	<version>0.1.0</version>
+	<name>person-rest-api</name>
 	<description>REST API for People Management</description>
 	<properties>
 		<java.version>11</java.version>

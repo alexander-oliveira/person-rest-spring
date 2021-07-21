@@ -1,11 +1,11 @@
-package dev.xndr.peopleapi.mapper;
+package dev.xndr.personapi.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
-import dev.xndr.peopleapi.dto.request.PersonDTO;
-import dev.xndr.peopleapi.entity.Person;
+import dev.xndr.personapi.dto.request.PersonDTO;
+import dev.xndr.personapi.entity.Person;
 
 @Mapper
 public interface PersonMapper {

@@ -1,4 +1,4 @@
-package dev.xndr.peopleapi.entity;
+package dev.xndr.personapi.entity;
 
 import java.time.LocalDate;
 import java.util.List;

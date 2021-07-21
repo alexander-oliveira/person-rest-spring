@@ -1,5 +1,6 @@
-package dev.xndr.peopleapi.service;
+package dev.xndr.personapi.service;
 
+import static dev.xndr.personapi.utils.PersonUtils.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
@@ -10,12 +11,10 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import dev.xndr.peopleapi.dto.request.PersonDTO;
-import dev.xndr.peopleapi.dto.response.MessageResponseDTO;
-import dev.xndr.peopleapi.entity.Person;
-import dev.xndr.peopleapi.repository.PersonRepository;
-
-import static dev.xndr.peopleapi.utils.PersonUtils.*;
+import dev.xndr.personapi.dto.request.PersonDTO;
+import dev.xndr.personapi.dto.response.MessageResponseDTO;
+import dev.xndr.personapi.entity.Person;
+import dev.xndr.personapi.repository.PersonRepository;
 
 @ExtendWith(MockitoExtension.class)
 public class PersonServiceTest {

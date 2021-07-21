@@ -1,4 +1,4 @@
-package dev.xndr.peopleapi.dto.response;
+package dev.xndr.personapi.dto.response;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package dev.xndr.peopleapi.dto.request;
+package dev.xndr.personapi.dto.request;
 
 import java.util.List;
 

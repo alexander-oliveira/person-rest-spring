@@ -1,11 +1,11 @@
-package dev.xndr.peopleapi.dto.request;
+package dev.xndr.personapi.dto.request;
 
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
-import dev.xndr.peopleapi.enums.PhoneType;
+import dev.xndr.personapi.enums.PhoneType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

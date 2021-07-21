@@ -1,13 +1,13 @@
-package dev.xndr.peopleapi;
+package dev.xndr.personapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PeopleapiApplication {
+public class PersonApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PeopleapiApplication.class, args);
+		SpringApplication.run(PersonApiApplication.class, args);
 	}
 
 }

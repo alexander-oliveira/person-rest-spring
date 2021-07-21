@@ -1,7 +1,7 @@
-package dev.xndr.peopleapi.utils;
+package dev.xndr.personapi.utils;
 
-import dev.xndr.peopleapi.dto.request.PhoneDTO;
-import dev.xndr.peopleapi.entity.Phone;
+import dev.xndr.personapi.dto.request.PhoneDTO;
+import dev.xndr.personapi.entity.Phone;
 
 public class PhoneUtils {
 

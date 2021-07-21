@@ -1,4 +1,4 @@
-package dev.xndr.peopleapi.controller;
+package dev.xndr.personapi.controller;
 
 import java.util.List;
 
@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import dev.xndr.peopleapi.dto.request.PersonDTO;
-import dev.xndr.peopleapi.dto.response.MessageResponseDTO;
-import dev.xndr.peopleapi.exception.PersonNotFoundException;
-import dev.xndr.peopleapi.service.PersonService;
+import dev.xndr.personapi.dto.request.PersonDTO;
+import dev.xndr.personapi.dto.response.MessageResponseDTO;
+import dev.xndr.personapi.exception.PersonNotFoundException;
+import dev.xndr.personapi.service.PersonService;
 import lombok.AllArgsConstructor;
 
 @RestController
