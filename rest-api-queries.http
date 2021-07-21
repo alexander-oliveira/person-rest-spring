@@ -1,0 +1,79 @@
+@baseurl = http://localhost:8080/api/v1
+
+### POST Person A
+POST {{baseurl}}/people
+Content-Type: application/json
+
+{
+    "firstName":"Person",
+    "lastName":"Name A",
+    "cpf":"920.986.426-36",
+    "birthDate": "15-06-1933",
+    "phones":[
+        {
+            "type":"MOBILE",
+            "number":"(01)999999999"
+        }
+    ]
+}
+
+### POST Person B
+POST {{baseurl}}/people
+Content-Type: application/json
+
+{
+    "firstName":"Person",
+    "lastName":"Name B",
+    "cpf":"992.437.384-70",
+    "birthDate": "25-03-1693",
+    "phones":[
+        {
+            "type":"HOME",
+            "number":"(02)123456789"
+        }
+    ]
+}
+### POST Person C
+POST {{baseurl}}/people
+Content-Type: application/json
+
+{
+    "firstName":"Person",
+    "lastName":"Name C",
+    "cpf":"624.113.847-26",
+    "birthDate": "28-08-1850",
+    "phones":[
+        {
+            "type":"COMMERCIAL",
+            "number":"(03)999999999"
+        }
+    ]
+}
+
+### PUT Person
+PUT {{baseurl}}/people/1
+Content-Type: application/json
+
+{
+    "id":1,
+    "firstName":"Person",
+    "lastName":"Updated",
+    "cpf":"992.437.384-70",
+    "birthDate": "25-03-1993",
+    "phones":[
+        {
+            "id": 1,
+            "type":"MOBILE",
+            "number":"(04)999999999"
+        }
+    ]
+}
+
+### GET ListAll
+GET {{baseurl}}/people
+
+### GET byId 1
+GET {{baseurl}}/people/1
+
+### DELETE id 1
+DELETE {{baseurl}}/people/1
