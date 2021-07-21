@@ -1,0 +1,30 @@
+spring:
+    datasource:
+        driver-class-name: org.h2.Driver
+    jpa:
+        database-platform: org.hibernate.dialect.H2Dialect
+    h2:
+        console:
+            settings:
+                trace: false
+                web-allow-others: false
+---
+spring:
+    config:
+        activate:
+            on-profile: dev
+    datasource:
+        url: jdbc:h2:mem:peopledb
+    h2:
+        console:
+            enabled: true
+---
+spring:
+    config:
+        activate:
+            on-profile: prod
+    datasource:
+        url: jdbc:h2:file:/data/peopledb
+    h2:
+        console:
+            enabled: false
